@@ -66,7 +66,7 @@ body {
   position: absolute;
   color:  #ffff61 ;
   z-index: 200;
-  top: 200px;
+  top: 170px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -88,12 +88,13 @@ body {
   font-size: 18px;
   font-weight: 100;
   line-height: 25px;
-  
+  text-shadow: 0px 0px 2px white;
 }
 
 .flowers {
-  position: relative;
+  position: absolute;
   transform: scale(0.7);
+  bottom: 70px;
 }
 
 .flower {
